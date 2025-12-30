@@ -38,7 +38,7 @@ npx hardhat run scripts/deploy.ts --network localhost
 ```env
 VITE_CONTRACT_ADDRESS=0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
 VITE_CHAIN_ID=31337
-VITE_API_BASE_URL=http://localhost:8081/api
+VITE_API_BASE_URL=http://localhost:8080/api
 ```
 
 #### 后端配置 (`backend/src/main/resources/application.properties`)
@@ -55,7 +55,7 @@ cd backend
 mvn spring-boot:run
 ```
 
-后端将在 `http://localhost:8081` 运行。
+后端将在 `http://localhost:8080` 运行。
 
 ### 5. 启动前端服务
 
